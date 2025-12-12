@@ -11,13 +11,6 @@ Open http://127.0.0.1:5000/ in your browser.
 Dependencies:
     pip install flask flask-cors geopandas shapely pyproj matplotlib rtree fiona werkzeug
 
-Notes:
-- Upload shapefiles as a single ZIP containing .shp .shx .dbf .prj etc.
-- For GeoPackage (.gpkg) upload the single file.
-- The app stores uploaded files in an 'uploads' folder temporarily.
-- After building / testing you may want to add auth or HTTPS for security.
-"""
-
 import os
 import zipfile
 import tempfile
